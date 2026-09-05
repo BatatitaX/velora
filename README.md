@@ -1,6 +1,6 @@
 # VELORA
 
-Solução acadêmica de e-commerce básico organizada em três camadas:
+Solução de e-commerce básico organizada em três camadas:
 
 **React (Apresentação) → Express API REST (Regras de Negócio) → Supabase (Dados/Auth/Storage)**
 
@@ -9,7 +9,7 @@ Solução acadêmica de e-commerce básico organizada em três camadas:
 1. Execute `supabase/velora.sql` em um projeto novo do Supabase. Se a VELORA antiga já estiver configurada, execute apenas `supabase/migrations/002_api_architecture.sql`.
 2. Crie `frontend/.env` a partir de `frontend/.env.example`.
 3. Crie `backend/.env` a partir de `backend/.env.example`.
-4. Na pasta principal:
+4. Na pasta principal/main:
 
 ```bash
 npm install
@@ -22,7 +22,7 @@ O comando inicia:
 - API REST: http://localhost:3001/api
 - Health check: http://localhost:3001/api/health
 
-## Supabase
+## Supabase (database)
 
 O projeto usa Supabase para:
 

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <g stroke="#ef3f7d" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 29C27 20 27 11 32 7C37 11 37 20 32 29Z"/>
+    <path d="M35 30C44 25 53 25 57 30C53 35 44 35 35 30Z" transform="rotate(45 32 32)"/>
+    <path d="M35 32C44 27 53 27 57 32C53 37 44 37 35 32Z" transform="rotate(90 32 32)"/>
+    <path d="M35 34C44 29 53 29 57 34C53 39 44 39 35 34Z" transform="rotate(135 32 32)"/>
+    <path d="M32 35C27 44 27 53 32 57C37 53 37 44 32 35Z"/>
+    <path d="M29 34C20 29 11 29 7 34C11 39 20 39 29 34Z" transform="rotate(45 32 32)"/>
+    <path d="M29 32C20 27 11 27 7 32C11 37 20 37 29 32Z" transform="rotate(90 32 32)"/>
+    <path d="M29 30C20 25 11 25 7 30C11 35 20 35 29 30Z" transform="rotate(135 32 32)"/>
+    <circle cx="32" cy="32" r="3.5"/>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+{
+  "name": "velora-ecommerce-academico",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "workspaces": ["frontend", "backend"],
+  "scripts": {
+    "ecommerce": "concurrently -k -n API,WEB \"npm run dev --workspace=velora-backend\" \"npm run dev --workspace=velora-frontend\"",
+    "dev": "npm run ecommerce",
+    "build": "npm run build --workspace=velora-frontend",
+    "start:backend": "npm run start --workspace=velora-backend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
